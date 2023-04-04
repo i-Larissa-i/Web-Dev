@@ -1,0 +1,32 @@
+<!-- *Elemento de exibição embutido* -->
+<!--Funcionam melhor com CSS. Não obedecem ao comando 'height', apenas ao comando "width" -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Display Property</title>
+        <style>
+            p{
+                background-color: red;
+                width: 100px;
+                display:inline-block;
+            }
+
+            span{
+                background-color: blue;
+                width:100px;
+            }
+
+            .second-p{
+                visibility: hidden ;
+            }
+        </style>
+    </head>
+    <body>
+        <p>Hello,</p>
+        <p class="second-p"> World</p>
+        <span>Hello</span>
+        <span>world</span>
+    </body>
+</html>
