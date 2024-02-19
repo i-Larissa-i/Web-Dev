@@ -1,15 +1,22 @@
-<!--Aprendi a Tag para adicionar vídeo baixado no site.-->
 <!doctype html>
 <html lang="pt-br">
   <head>
     <meta charset="utf-8">
-    <title>Assista ao Vídeo</title>
+    <title>Vídeo adicionado</title>
   </head>
   <body>
-    <h1>Assista ao Vídeo</h1>
+    <h1>Tecnologia da Informação</h1>
     <hr>
-      <!--A tag de vídeo tem o seguinte formato e atributos:
+      <!--
       <video width="[largura do vídeo] " height="[altura do vídeo]" poster="[imagem inserida sobre o vídeo]" controls[a barra de controles do vídeo] autoplay[inicia o vídeo automaticamente] loop[reinicia o vídeo após ter acabado]> </video>
       -->
+    <!--Os navegadores suportam alguns formatos de vídeo: MP4, Ogg e WebM -->
+    <video width="50%px" height="50%" poster="https://images.pexels.com/photos/699122/pexels-photo-699122.jpeg?auto=compress&cs=tinysrgb&w=600" controls>
+      <source scr="C:\Users\adlfm\OneDrive\Área de Trabalho\inf\Web Development\Projetos-HTML5\codigovideo(1080p).mp4" type="video/mp4">
+      <source src="C:\Users\adlfm\OneDrive\Área de Trabalho\inf\Web Development\Projetos-HTML5\codigovideo(1080p).oggtheora.ogv" type="video/ogg">
+      <source scr="C:\Users\adlfm\OneDrive\Área de Trabalho\inf\Web Development\Projetos-HTML5\codigovideo(1080p).webmhd.webm" type="video/webm">
+      video não é suportado pelo navegador.
+    </video>
+    
   </body>
 </html>
