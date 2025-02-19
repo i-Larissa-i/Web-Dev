@@ -1,0 +1,14 @@
+<!--Revisei sobre a tag <link> e valores comuns para o atributo rel, como stylesheet, icon, preload e alternate-->
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Página Inicial</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1>Estudando de novo</h1>
+        <p>É bom que você não se esqueça do conteúdo.</p>
+    </body>
+</html>
