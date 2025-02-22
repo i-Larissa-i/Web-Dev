@@ -1,4 +1,5 @@
 <!--Revisei sobre a tag <link> e valores comuns para o atributo rel, como stylesheet, icon, preload e alternate-->
+<!--Podem existir mais de 19 valores para o atributo rel-->
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
