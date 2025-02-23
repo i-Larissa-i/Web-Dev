@@ -1,0 +1,21 @@
+<!-- Revisei a matéria de CSS3 sobre font-size, a diferença entre 1px, 1pt, 1em e 1rem -->
+<!-- Este código é um exemplo de como usar o tamanho em-->
+<!-- 8em é a fonte multiplicada pelo tamanho da fonte do elemento pai (5px), que resultará o texto de tamanho 40px-->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exemplo de em</title>
+        <style>
+           .exemplo{ font-size: 5px}
+           p{ font-size: 8em}
+        </style>
+    </head>
+    <body>
+        <div class="exemplo">
+            <p>Esta frase é um exemplo</p>
+        </div>
+    </body>
+</html>
