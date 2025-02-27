@@ -1,0 +1,23 @@
+<!-- Este é um exemplo de como usar a font-size em rem-->
+<!--1rem: é a fonte multiplicada pelo tamanho padrão do html (a menos que especifique outro tamanho), por padrão é 16px-->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exemplo de rem</title>
+        <style>
+            html{
+                font-size: 40px;
+            }
+           .exemplo{ font-size: 5px}
+           p{ font-size: 1rem}
+        </style>
+    </head>
+    <body>
+        <div class="exemplo">
+            <p>Esta frase é um exemplo</p>
+        </div>
+    </body>
+</html>
