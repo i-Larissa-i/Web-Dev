@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+   <!-- Comecei a estudar media queries. Neste código, estou adaptando a cor de fundo do site ao tamanho da tela de celulares, tablets, laptops e desktops respectivamente-->
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Wave</title>
+        <style>
+            /*tamanho médio de mobile*/
+            @media(max-width:600px){
+                body{background-color: rgb(9, 9, 116);}
+            }
+
+            /*tamanho médio de tabltes e ipads*/
+            @media(min-width:601px) and (max-width:1200px){
+                body{background-color: rgb(28, 127, 185);}
+            }
+
+            /*tamanho médio de laptops*/
+            @media(min-width:1201px) and (max-width:1600px){
+                body{background-color: rgb(173, 0, 185);}
+            }
+            /*tamanho mínimo de desktops*/
+            @media(min-width:1601px){
+                body{background-color: rgb(85, 7, 19);}
+            }
+        </style>
+    </head>
+    <body>
+    
+
+    </body>
+</html>
