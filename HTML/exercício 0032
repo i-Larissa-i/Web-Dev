@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Wave</title>
         <style>
-            /*tamanho médio de mobile*/
+            /*tamanho máximo de mobile*/
             @media(max-width:600px){
                 body{background-color: rgb(9, 9, 116);}
             }
